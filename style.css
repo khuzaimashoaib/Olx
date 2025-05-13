@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body,
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #002f34;
+}
+
+.main_header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  border-bottom: 0 solid #f2f4f5;
+  z-index: 6;
+}
+.header_second_container,
+.header_first_container {
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+}
+
+.header_second_container {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 16px;
+}
+
+.logo_container,
+.motors_container,
+.property_container {
+  margin-right: 40px;
+  fill: #002f34;
+}
+.property_inner_container,
+.motors_inner_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.c37d7f37 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 47, 52, 0.16),
+    rgba(0, 47, 52, 0.01) 81.77%,
+    rgba(0, 47, 52, 0.01)
+  );
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+._265fbf76 {
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.b7af14b4 {
+  font-weight: 700;
+}
+
+.af8fa358 {
+  min-width: 302px;
+  width: 302px;
+}
+._8367ea94 {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d8dfe0;
+  border-radius: 4px;
+  height: 48px;
+}
+.a933417f {
+  margin-left: 8px;
+  fill: #002f34;
+}
+._8367ea94 p {
+    width: 100%;
+  font-size: 16px;
+  padding-left: 12px;
+}
+._948d9e0a {
+ margin-right: 16px;
+}
