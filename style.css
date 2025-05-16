@@ -174,26 +174,25 @@ body,
   margin-bottom: 5px;
   cursor: pointer;
 }
+.e5a06375,
 ._09781e6d {
   flex-direction: column;
   flex: 1;
 }
 .e5a06375 {
   display: flex;
-  flex-direction: column;
-  flex: 1;
 }
-.e5a06375 > :last-child {
+.follow_us_section > :last-child {
   margin-top: 38px;
 }
+.social_links,
 .store_links {
   display: flex;
   gap: 8px;
 }
 .social_links {
   margin-top: 2px;
-  gap: 8px;
-  display: flex;
+  
 }
 
 .b223cc14 img,
@@ -264,7 +263,7 @@ body,
   margin: 0 auto;
   width: 1.5px;
 }
-.divider {
+.margin_auto {
   margin: 0 auto;
 }
 ._8e6aa1b7 {
@@ -297,7 +296,7 @@ body,
   width: 100%;
 }
 
-.category_sel {
+.width_1280 {
   max-width: 1280px;
 }
 ._19d47bcd {
@@ -332,7 +331,76 @@ body,
   border-radius: 5px;
   display: block;
 }
+.f_dir_column {
+  flex-direction: column;
+}
 
+.category_section_title {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  align-items: end;
+}
+.category_section_title_span {
+  color: #002f34;
+  font-size: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.f_wrap {
+  flex-wrap: wrap;
+}
+
+.category_section_main {
+  column-gap: 40.75px;
+  margin-bottom: 40px;
+  row-gap: 16px;
+}
+.category_section_main_inner {
+  line-height: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.category_span {
+  text-transform: capitalize;
+  margin-top: 8px;
+  width: 106px;
+}
+.category_section_img_div {
+  background-color: transparent;
+  border-radius: 100%;
+  filter: none;
+  height: 88px;
+  width: 88px;
+  max-height: 100%;
+  max-width: 100%;
+}
+.category_section_img {
+  width: 100%;
+  height: 100%;
+}
+
+.single_category_sec_main {
+  margin: 16px auto;
+  width: 100%;
+  
+}
+
+.single_category_sec_inner {
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+.single_category_title{
+  margin-top: 0;
+}
+
+._9c240bda {
+  margin-right: 1rem;
+  color: #3a77ff;
+  white-space: nowrap;
+}
 @media only screen and (max-width: 1280px) {
   ._8b72864b {
     display: none;
@@ -351,5 +419,21 @@ body,
   .bannerImgInner {
     margin-right: 16px;
     margin-left: 16px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .category_section_img_div {
+    height: 44px;
+    width: 44px;
+  }
+  .category_span {
+    font-size: 12px;
+    font-weight: 400;
+    width: 64px;
+  }
+
+  .category_section_main_inner {
+    line-height: 14px;
+    margin: 10px 14px;
   }
 }
